@@ -13,6 +13,8 @@ The offical Tteok standard repository
 ## TODO List
 
 - [x] 컨테이너의 형태 정의.
-- [ ] 타입 정의.
+- [x] 타입 정의.
+- [ ] 연산자 정의.
 - [ ] 컨테이너의 체이닝, 리턴 정의.
-- [ ] TODO List 완성
+- [ ] 추상 표준 구현체 제작.
+- [ ] 명세서 작성.
