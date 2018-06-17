@@ -43,3 +43,19 @@
 ## 숫자
 숫자 타입은 BigFloat 입니다.
 > BigFloat이란 오차 없는 부동소수점을 의미합니다.
+
+## 컨테이너 값
+컨테이너 하나는 head, attributes, body라는 세개의 항목을 가집니다.
+* head: 컨테이너의 tag name를 가리킵니다.
+* attributes: 컨테이너의 tag attribute들로 이루어진 객체를 가리킵니다. 만약 attribute가 없다면 nil를 가리킵니다.
+* body: 컨테이너의 body를 가리키며 또다른 컨테이너를 가리킵니다. 만약 비어있다면 nil를 가리키게 됩니다.
+
+예로들어
+```html
+<c1 a1=v1 a2=v2>
+    v3
+    <c2 a3=v4></c2>
+</c1>
+```
+와 같은 컨테이너는 다음과 같은 구조를 지닙니다.
+![container-diagram](./img/container-diagram.png)
