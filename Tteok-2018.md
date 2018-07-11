@@ -44,6 +44,10 @@
 숫자 타입은 BigFloat 입니다.
 > BigFloat이란 오차 없는 부동소수점을 의미합니다.
 
+## 문자열 타입
+문자열 타입은 unicode character들의 모임을 나타냅니다.
+문자열 타입은 immutable합니다.
+
 ## 컨테이너 값
 컨테이너 하나는 head, attributes, body라는 세개의 항목을 가집니다.
 * head: 컨테이너의 tag name를 가리킵니다.
@@ -59,3 +63,4 @@
 ```
 와 같은 컨테이너는 다음과 같은 구조를 지닙니다.
 ![container-diagram](./img/container-diagram.png)
+
