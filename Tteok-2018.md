@@ -64,3 +64,6 @@
 와 같은 컨테이너는 다음과 같은 구조를 지닙니다.
 ![container-diagram](./img/container-diagram.png)
 
+## nil 값
+`nil`은 초기화되지 않음을 의미하며, 모든 타입에 속할 수 있고,
+명시하지 않았을 경우 nil이 그 타입의 기본값입니다.
