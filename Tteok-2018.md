@@ -58,4 +58,4 @@
 </c1>
 ```
 와 같은 컨테이너는 다음과 같은 구조를 지닙니다.
-![container-diagram](./img/container-diagram.png)
+![container-diagram](./img/what-is-prob.jpg)
